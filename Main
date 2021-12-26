@@ -1405,10 +1405,10 @@ FoodButton.MouseButton1Up:Connect(function()
 		if playerL.Character:FindFirstChild("[Chicken]") then
 			playerL.Character:FindFirstChild("[Chicken]").Parent = playerL.Backpack
 		end
-		task.wait(2.3)
+		task.wait(3.4)
 		fireclickdetector(Pizza.Parent.ClickDetector)
 		playerL.Backpack:WaitForChild("[Pizza]").Parent = playerL.Character
-		task.wait(1)
+		task.wait(2)
 		fireclickdetector(Pizza.Parent.ClickDetector)
 		if playerL.Character:FindFirstChild("[Pizza]") then
 			playerL.Character:FindFirstChild("[Pizza]").Parent = playerL.Backpack
